@@ -8,6 +8,8 @@ function App() {
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/votacao" element={<Votacao />} />
+      <Route path="/resultado" element={<Resultado />} />
     </Routes>
   </BrowserRouter>
 }
